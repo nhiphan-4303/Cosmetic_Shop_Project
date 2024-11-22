@@ -370,8 +370,12 @@ kbd kbd {
 figure {
   margin: 0 0 1rem;
 }
-img,
+/* img,
 svg {
+  vertical-align: middle;
+} */
+img,
+i {
   vertical-align: middle;
 }
 table {
@@ -27561,7 +27565,15 @@ fieldset:disabled .btn {
 .list-style-disc {
   list-style: disc !important;
 }
-svg.icon {
+/* svg.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+} */
+i.icon {
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -28652,8 +28664,12 @@ svg.icon {
 .checkout .btn-payment:hover {
   --bs-btn-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.checkout .btn-payment.active svg,
+/* .checkout .btn-payment.active svg,
 .checkout .btn-payment:hover svg {
+  color: #b88539 !important;
+} */
+.checkout .btn-payment.active i,
+.checkout .btn-payment:hover i {
   color: #b88539 !important;
 }
 .form-border-1 .form-control,
@@ -30128,7 +30144,10 @@ ul.single-product-meta li span:first-child {
 .verti-timeline .event-list.active .event-timeline-dot {
   color: var(--bs-light-color);
 }
-.verti-timeline .event-list.active .event-timeline-dot svg {
+/* .verti-timeline .event-list.active .event-timeline-dot svg {
+  animation: fade-right 1.5s infinite linear;
+} */
+.verti-timeline .event-list.active .event-timeline-dot i {
   animation: fade-right 1.5s infinite linear;
 }
 .verti-timeline .event-list:last-child {
@@ -30345,7 +30364,12 @@ ul.single-product-meta li span:first-child {
 .color-modes .dropdown-menu .dropdown-item {
   border-radius: 0.25rem;
 }
-.color-modes svg {
+/* .color-modes svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+} */
+.color-modes i {
   width: 1em;
   height: 1em;
   fill: currentColor;
@@ -30367,7 +30391,11 @@ ul.single-product-meta li span:first-child {
 .color-modes .dropdown-toggle:after {
   display: none !important;
 }
-.color-modes .dropdown-toggle svg {
+/* .color-modes .dropdown-toggle svg {
+  width: 1rem;
+  height: 1rem;
+} */
+.color-modes .dropdown-toggle i {
   width: 1rem;
   height: 1rem;
 }
