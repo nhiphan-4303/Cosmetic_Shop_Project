@@ -30396,8 +30396,8 @@ ul.single-product-meta li span:first-child {
   height: 1rem;
 } */
 .color-modes .dropdown-toggle i {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1rem;
+  height: 1rem;
 }
 :root {
   --bs-body-font-size: 15px;
