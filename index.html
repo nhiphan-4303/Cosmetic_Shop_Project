@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="assets/css/mapbox-gl.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/stylesheet.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
         rel="stylesheet">
@@ -702,25 +705,30 @@
                         <div class="px-xl-5 d-inline-block">
                             <a class="lh-1 color-inherit text-decoration-none" href="#" data-bs-toggle="offcanvas"
                                 data-bs-target="#searchModal" aria-controls="searchModal" aria-expanded="false">
-                                <svg class="icon icon-magnifying-glass-light">
+                                <!-- <svg class="icon icon-magnifying-glass-light">
                                     <use xlink:href="#icon-magnifying-glass-light"></use>
-                                </svg>
+                                </svg> -->
+
+                                <i class="icon icon-magnifying-glass-light fa-solid fa-magnifying-glass"></i>
+
                             </a>
                         </div>
                         <div class="px-5 d-none d-xl-inline-block">
                             <a class="lh-1 color-inherit text-decoration-none" href="#" data-bs-toggle="modal"
                                 data-bs-target="#signInModal">
-                                <svg class="icon icon-user-light">
+                                <!-- <svg class="icon icon-user-light">
                                     <use xlink:href="#icon-user-light"></use>
-                                </svg>
+                                </svg> -->
+                                <i class="icon icon-user-light fa-regular fa-user"></i>
                             </a>
                         </div>
                         <div class="px-5 d-none d-xl-inline-block">
                             <a class="position-relative lh-1 color-inherit text-decoration-none"
                                 href="shop/wishlist.html">
-                                <svg class="icon icon-star-light">
+                                <!-- <svg class="icon icon-star-light">
                                     <use xlink:href="#icon-star-light"></use>
-                                </svg>
+                                </svg> -->
+                                <i class="icon icon-star-light fa-regular fa-star"></i>
                                 <span
                                     class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
                                     style="--square-size: 18px">3</span>
@@ -730,9 +738,10 @@
                             <a class="position-relative lh-1 color-inherit text-decoration-none" href="#"
                                 data-bs-toggle="offcanvas" data-bs-target="#shoppingCart" aria-controls="shoppingCart"
                                 aria-expanded="false">
-                                <svg class="icon icon-star-light">
+                                <!-- <svg class="icon icon-star-light">
                                     <use xlink:href="#icon-shopping-bag-open-light"></use>
-                                </svg>
+                                </svg> -->
+                                <i class="icon icon-star-light fa-solid fa-cart-shopping"></i>
                                 <span
                                     class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
                                     style="--square-size: 18px">3</span>
@@ -742,45 +751,53 @@
                             <a class="bd-theme btn btn-link nav-link dropdown-toggle d-inline-flex align-items-center justify-content-center text-primary p-0 position-relative rounded-circle"
                                 href="#" aria-expanded="true" data-bs-toggle="dropdown" data-bs-display="static"
                                 aria-label="Toggle theme (light)">
-                                <svg class="bi my-1 theme-icon-active">
+                                <!-- <svg class="bi my-1 theme-icon-active">
                                     <use href="#sun-fill"></use>
-                                </svg>
+                                </svg> -->
+                                <i class="my-1 theme-icon-active fa-solid fa-sun"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end fs-14px" data-bs-popper="static">
                                 <li>
                                     <button type="button" class="dropdown-item d-flex align-items-center active"
                                         data-bs-theme-value="light" aria-pressed="true">
-                                        <svg class="bi me-4 opacity-50 theme-icon">
+                                        <!-- <svg class="bi me-4 opacity-50 theme-icon">
                                             <use href="#sun-fill"></use>
-                                        </svg>
+                                        </svg> -->
+                                        <i class="me-4 opacity-50 theme-icon fa-solid fa-sun"></i>
                                         Light
-                                        <svg class="bi ms-auto d-none">
+                                        <!-- <svg class="bi ms-auto d-none">
                                             <use href="#check2"></use>
-                                        </svg>
+                                        </svg> -->
+                                        <i class="ms-auto fa-solid fa-check"></i>
                                     </button>
                                 </li>
                                 <li>
                                     <button type="button" class="dropdown-item d-flex align-items-center"
                                         data-bs-theme-value="dark" aria-pressed="false">
-                                        <svg class="bi me-4 opacity-50 theme-icon">
+                                        <!-- <svg class="bi me-4 opacity-50 theme-icon">
                                             <use href="#moon-stars-fill"></use>
-                                        </svg>
+                                        </svg> -->
+                                        <i class="me-4 opacity-50 theme-icon fa-solid fa-moon"></i>
                                         Dark
-                                        <svg class="bi ms-auto d-none">
+
+                                        <!-- <svg class="bi ms-auto d-none">
                                             <use href="#check2"></use>
-                                        </svg>
+                                        </svg> -->
+                                        <i class="ms-auto d-none fa-solid fa-check"></i>
                                     </button>
                                 </li>
                                 <li>
                                     <button type="button" class="dropdown-item d-flex align-items-center"
                                         data-bs-theme-value="auto" aria-pressed="false">
-                                        <svg class="bi me-4 opacity-50 theme-icon">
+                                        <!-- <svg class="bi me-4 opacity-50 theme-icon">
                                             <use href="#circle-half"></use>
-                                        </svg>
+                                        </svg> -->
+                                        <i class="me-4 opacity-50 theme-icon fa-solid fa-circle-half-stroke"></i>
                                         Auto
-                                        <svg class="bi ms-auto d-none">
+                                        <!-- <svg class="bi ms-auto d-none">
                                             <use href="#check2"></use>
-                                        </svg>
+                                        </svg> -->
+                                        <i class="ms-auto d-none fa-solid fa-check"></i>
                                     </button>
                                 </li>
                             </ul>
@@ -1681,7 +1698,9 @@
                                 <a href="shop/product-details-v1.html" class="hover-zoom-in d-block"
                                     title="Butterfly Cloud Collar Embossed Highlight & Contour Palette">
                                     <img src="#" data-src="assets/images/product-07.webp"
-                                        class="img-fluid lazy-image w-100" alt="Butterfly Cloud Collar Embossed Highlight & Contour Palette" width="330" height="440">
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Butterfly Cloud Collar Embossed Highlight & Contour Palette" width="330"
+                                        height="440">
                                 </a>
                                 <div class="position-absolute d-flex z-index-2 product-actions  horizontal"><a
                                         class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
@@ -1723,7 +1742,8 @@
                                 <h4
                                     class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3">
                                     <a class="text-decoration-none text-reset"
-                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Embossed Highlight & Contour Palette</a>
+                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Embossed Highlight &
+                                        Contour Palette</a>
                                 </h4>
                                 <div class="d-flex align-items-center fs-12px justify-content-center">
                                     <div class="rating">
@@ -1792,8 +1812,9 @@
                                 <a href="shop/product-details-v1.html" class="hover-zoom-in d-block"
                                     title="Butterfly Cloud Collar Rouge Box Highlighting & Blush Dou Powder">
                                     <img src="#" data-src="assets/images/product-08.webp"
-                                        class="img-fluid lazy-image w-100" alt="Butterfly Cloud Collar Rouge Box Highlighting & Blush Dou Powder" width="330"
-                                        height="440">
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Butterfly Cloud Collar Rouge Box Highlighting & Blush Dou Powder"
+                                        width="330" height="440">
                                 </a>
                                 <div class="position-absolute product-flash z-index-2 "><span
                                         class="badge badge-product-flash on-sale bg-primary">-26%</span></div>
@@ -1838,7 +1859,9 @@
                                     <ins class="text-decoration-none">$29.00</ins></span>
                                 <h4
                                     class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3">
-                                    <a class="text-decoration-none text-reset" href="shop/product-details-v1.html">Butterfly Cloud Collar Rouge Box Highlighting & Blush Dou Powder</a>
+                                    <a class="text-decoration-none text-reset"
+                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Rouge Box
+                                        Highlighting & Blush Dou Powder</a>
                                 </h4>
                                 <div class="d-flex align-items-center fs-12px justify-content-center">
                                     <div class="rating">
@@ -1907,7 +1930,8 @@
                                 <a href="shop/product-details-v1.html" class="hover-zoom-in d-block"
                                     title="Butterfly Cloud Collar Embossed Six Color Makeup Palette">
                                     <img src="#" data-src="assets/images/product-09.webp"
-                                        class="img-fluid lazy-image w-100" alt="Butterfly Cloud Collar Embossed Six Color Makeup Palette" width="330"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Butterfly Cloud Collar Embossed Six Color Makeup Palette" width="330"
                                         height="440">
                                 </a>
                                 <div class="position-absolute product-flash z-index-2 "><span
@@ -1954,7 +1978,8 @@
                                 <h4
                                     class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3">
                                     <a class="text-decoration-none text-reset"
-                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Embossed Six Color Makeup Palette</a>
+                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Embossed Six Color
+                                        Makeup Palette</a>
                                 </h4>
                                 <div class="d-flex align-items-center fs-12px justify-content-center">
                                     <div class="rating">
@@ -2023,8 +2048,8 @@
                                 <a href="shop/product-details-v1.html" class="hover-zoom-in d-block"
                                     title="Butterfly Cloud Collar Hand Mirror">
                                     <img src="#" data-src="assets/images/product-10.webp"
-                                        class="img-fluid lazy-image w-100" alt="Butterfly Cloud Collar Hand Mirror" width="330"
-                                        height="440">
+                                        class="img-fluid lazy-image w-100" alt="Butterfly Cloud Collar Hand Mirror"
+                                        width="330" height="440">
                                 </a>
                                 <div class="position-absolute d-flex z-index-2 product-actions  horizontal"><a
                                         class="text-body-emphasis bg-body bg-dark-hover text-light-hover rounded-circle square product-action shadow-sm add_to_cart"
@@ -2135,7 +2160,8 @@
                                 <a href="shop/product-details-v1.html" class="hover-zoom-in d-block"
                                     title="Flower Knows Butterfly Cloud Collar Collection Glossy Lipstick">
                                     <img src="#" data-src="assets/images/product-11.webp"
-                                        class="img-fluid lazy-image w-100" alt="Flower Knows Butterfly Cloud Collar Collection Glossy Lipstick" width="330"
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Flower Knows Butterfly Cloud Collar Collection Glossy Lipstick" width="330"
                                         height="440">
                                 </a>
                                 <div class="position-absolute d-flex z-index-2 product-actions  horizontal"><a
@@ -2177,7 +2203,9 @@
                                     class="d-flex align-items-center price text-body-emphasis fw-bold justify-content-center mb-3 fs-6">$29.00</span>
                                 <h4
                                     class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3">
-                                    <a class="text-decoration-none text-reset" href="shop/product-details-v1.html">Flower Knows Butterfly Cloud Collar Collection Glossy Lipstick</a>
+                                    <a class="text-decoration-none text-reset"
+                                        href="shop/product-details-v1.html">Flower Knows Butterfly Cloud Collar
+                                        Collection Glossy Lipstick</a>
                                 </h4>
                                 <div class="d-flex align-items-center fs-12px justify-content-center">
                                     <div class="rating">
@@ -2246,8 +2274,8 @@
                                 <a href="shop/product-details-v1.html" class="hover-zoom-in d-block"
                                     title="Butterfly Cloud Collar Angeled Powder Brush">
                                     <img src="#" data-src="assets/images/product-12.webp"
-                                        class="img-fluid lazy-image w-100" alt="Butterfly Cloud Collar Angeled Powder Brush"
-                                        width="330" height="440">
+                                        class="img-fluid lazy-image w-100"
+                                        alt="Butterfly Cloud Collar Angeled Powder Brush" width="330" height="440">
                                 </a>
                                 <div class="position-absolute product-flash z-index-2 "><span
                                         class="badge badge-product-flash on-sale bg-primary">-26%</span></div>
@@ -2293,7 +2321,8 @@
                                 <h4
                                     class="product-title card-title text-primary-hover text-body-emphasis fs-15px fw-500 mb-3">
                                     <a class="text-decoration-none text-reset"
-                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Angeled Powder Brush</a>
+                                        href="shop/product-details-v1.html">Butterfly Cloud Collar Angeled Powder
+                                        Brush</a>
                                 </h4>
                                 <div class="d-flex align-items-center fs-12px justify-content-center">
                                     <div class="rating">
