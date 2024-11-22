@@ -2945,7 +2945,7 @@
     <script src="assets/js/ScrollTrigger.min.js"></script>
     <script src="assets/js/mapbox-gl.js"></script>
     <script src="assets/js/theme.min.js"></script>
-    
+
     <div id="searchModal" data-bs-scroll="false" class="offcanvas offcanvas-top" style="--bs-offcanvas-height: auto">
         <div class="container-wide container-xxl">
             <nav class="navbar navbar-expand-xl px-0 py-6 py-xl-12 row align-items-start">
@@ -2976,32 +2976,37 @@
                         </div>
                     </form>
                 </div>
+
                 <div class="icons-actions col-xl-3 d-flex justify-content-end fs-28px text-body-emphasis">
                     <div class="px-5 d-none d-xl-inline-block">
                         <a class="lh-1 color-inherit text-decoration-none" href="#" data-bs-toggle="modal"
                             data-bs-target="#signInModal">
-                            <svg class="icon icon-user-light">
+                            <!-- <svg class="icon icon-user-light">
                                 <use xlink:href="#icon-user-light"></use>
-                            </svg>
+                            </svg> -->
+                            <i class="icon icon-user-light fa-regular fa-user"></i>
                         </a>
                     </div>
                     <div class="px-5 d-none d-xl-inline-block">
                         <a class="position-relative lh-1 color-inherit text-decoration-none" href="shop/wishlist.html">
-                            <svg class="icon icon-star-light">
+                            <!-- <svg class="icon icon-star-light">
                                 <use xlink:href="#icon-star-light"></use>
-                            </svg>
+                            </svg> -->
+                            <i class="icon icon-star-light fa-regular fa-star"></i>
                             <span
                                 class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
                                 style="--square-size: 18px">3</span>
                         </a>
                     </div>
+
                     <div class="px-5 d-none d-xl-inline-block">
                         <a class="position-relative lh-1 color-inherit text-decoration-none" href="#"
                             data-bs-toggle="offcanvas" data-bs-target="#shoppingCart" aria-controls="shoppingCart"
                             aria-expanded="false">
-                            <svg class="icon icon-star-light">
+                            <!-- <svg class="icon icon-star-light">
                                 <use xlink:href="#icon-shopping-bag-open-light"></use>
-                            </svg>
+                            </svg> -->
+                            <i class="icon icon-star-light fa-solid fa-cart-shopping"></i>
                             <span
                                 class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
                                 style="--square-size: 18px">3</span>
@@ -3011,11 +3016,12 @@
             </nav>
         </div>
     </div>
+
     <div id="shoppingCart" data-bs-scroll="false" class="offcanvas offcanvas-end">
         <div class="offcanvas-header fs-4">
             <h4 class="offcanvas-title fw-semibold">Shopping Bag</h4>
             <button type="button" class="btn-close btn-close-bg-none" data-bs-dismiss="offcanvas" aria-label="Close">
-                <i class="far fa-times"></i>
+                <i class="fa-solid fa-times"></i>
             </button>
         </div>
         <div class="offcanvas-body me-xl-auto pt-0 mb-2 mb-xl-0">
@@ -3023,16 +3029,19 @@
                 <table class="table table-borderless">
                     <thead>
                         <tr class="fw-500">
-                            <td colspan="3" class="border-bottom pb-6"><i
-                                    class="far fa-check fs-12px border me-4 px-2 py-1 text-body-emphasis border-dark rounded-circle"></i>
-                                Your cart is saved for the next <span class="text-body-emphasis">4m34s</span></td>
+                            <td colspan="3" class="border-bottom pb-6">
+                                <i class="fa-solid fa-check fs-12px border me-4 px-2 py-1 text-body-emphasis border-dark
+                                    rounded-circle">
+                                </i>
+                                Your cart is saved for the next <span class="text-body-emphasis">4m34s</span>
+                            </td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="position-relative">
                             <td class="align-middle text-center">
                                 <a href="#" class="d-block clear-product">
-                                    <i class="far fa-times"></i>
+                                    <i class="fa-solid fa-times"></i>
                                 </a>
                             </td>
                             <td class="shop-product">
@@ -3050,22 +3059,26 @@
                                     </div>
                                 </div>
                             </td>
+
                             <td class="align-middle p-0">
                                 <div class="input-group position-relative shop-quantity">
-                                    <a href="#" class="shop-down position-absolute z-index-2"><i
-                                            class="far fa-minus"></i></a>
+                                    <a href="#" class="shop-down position-absolute z-index-2">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </a>
                                     <input name="number[]" type="number"
                                         class="form-control form-control-sm px-6 py-4 fs-6 text-center border-0"
                                         value="1" required>
-                                    <a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
+                                    <a href="#" class="shop-up position-absolute z-index-2">
+                                        <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
                             </td>
                         </tr>
+
                         <tr class="position-relative">
                             <td class="align-middle text-center">
                                 <a href="#" class="d-block clear-product">
-                                    <i class="far fa-times"></i>
+                                    <i class="fa-solid fa-times"></i>
                                 </a>
                             </td>
                             <td class="shop-product">
@@ -3085,20 +3098,22 @@
                             </td>
                             <td class="align-middle p-0">
                                 <div class="input-group position-relative shop-quantity">
-                                    <a href="#" class="shop-down position-absolute z-index-2"><i
-                                            class="far fa-minus"></i></a>
+                                    <a href="#" class="shop-down position-absolute z-index-2">
+                                        <i class="fa-solid fa-minus"></i></a>
                                     <input name="number[]" type="number"
                                         class="form-control form-control-sm px-6 py-4 fs-6 text-center border-0"
                                         value="1" required>
-                                    <a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
+                                    <a href="#" class="shop-up position-absolute z-index-2">
+                                        <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
                             </td>
                         </tr>
+
                         <tr class="position-relative">
                             <td class="align-middle text-center">
                                 <a href="#" class="d-block clear-product">
-                                    <i class="far fa-times"></i>
+                                    <i class="fa-solid fa-times"></i>
                                 </a>
                             </td>
                             <td class="shop-product">
@@ -3118,12 +3133,13 @@
                             </td>
                             <td class="align-middle p-0">
                                 <div class="input-group position-relative shop-quantity">
-                                    <a href="#" class="shop-down position-absolute z-index-2"><i
-                                            class="far fa-minus"></i></a>
+                                    <a href="#" class="shop-down position-absolute z-index-2">
+                                        <i class="fa-solid fa-minus"></i></a>
                                     <input name="number[]" type="number"
                                         class="form-control form-control-sm px-6 py-4 fs-6 text-center border-0"
                                         value="1" required>
-                                    <a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
+                                    <a href="#" class="shop-up position-absolute z-index-2">
+                                        <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
                             </td>
@@ -3132,6 +3148,7 @@
                 </table>
             </form>
         </div>
+        
         <div class="offcanvas-footer flex-wrap">
             <div class="d-flex align-items-center justify-content-between w-100 mb-5">
                 <span class="text-body-emphasis">Total price:</span>
