@@ -610,8 +610,12 @@ progress {
   color: var(--bs-secondary-color);
 }
 
-.container-wide{
+/* .container-wide{
   background-color: #FFF0F0;
+} */
+
+.container-wide{
+  background-color: #FFFF;
 }
 
 .container,
