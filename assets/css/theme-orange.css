@@ -320,10 +320,12 @@ a {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   text-decoration: none;
 }
+
 a:hover {
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
   text-decoration: underline;
 }
+
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
@@ -610,8 +612,12 @@ progress {
   color: var(--bs-secondary-color);
 }
 
-.container-wide{
+/* .container-wide{
   background-color: #FFF0F0;
+} */
+
+.container-wide {
+  background-color: #ffff;
 }
 
 .container,
@@ -4432,8 +4438,8 @@ fieldset:disabled .btn {
 }
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #E8989A;
-  --bs-btn-border-color: #E8989A;
+  --bs-btn-bg: #e8989a;
+  --bs-btn-border-color: #e8989a;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #262626;
   --bs-btn-hover-border-color: #1a1a1a;
@@ -8713,6 +8719,7 @@ fieldset:disabled .btn {
 .position-relative {
   position: relative !important;
 }
+
 .position-absolute {
   position: absolute !important;
 }
@@ -27497,7 +27504,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 1200px) {
   .dropdown-menu {
-    background-color: #FFF0F0;
+    background-color: #ffff;
   }
   .dropdown-hover .dropdown-menu {
     transition: all 0.3s ease-in-out;
@@ -30195,7 +30202,7 @@ ul.single-product-meta li span:first-child {
   letter-spacing: -0.15em;
 }
 .rating .star {
-  color: #E8989A;
+  color: #e8989a;
   display: inline-block;
 }
 .rating .filled-stars {
@@ -30206,7 +30213,7 @@ ul.single-product-meta li span:first-child {
   overflow: hidden;
 }
 .rating .filled-stars .star {
-  color: #E8989A;
+  color: #e8989a;
 }
 .ls-0 .rating > div {
   letter-spacing: 0 !important;
@@ -30269,8 +30276,8 @@ ul.single-product-meta li span:first-child {
 }
 .btn-white {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #E8989A;
-  --bs-btn-border-color: #E8989A;
+  --bs-btn-bg: #e8989a;
+  --bs-btn-border-color: #e8989a;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #fff;
   --bs-btn-hover-border-color: #fff;
@@ -30641,3 +30648,9 @@ ul.single-product-meta li span:first-child {
 [data-bs-theme="dark"] .landing-blog-post-background:hover {
   background-color: var(--bs-section-color-8);
 }
+
+/* add them */
+.card .card-img-top .position-absolute a:hover{
+  text-decoration: none;
+}
+
