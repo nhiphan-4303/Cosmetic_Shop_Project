@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/obj/Debug/net7.0/scopedcss/projectbundle/AdminCosmetic.bundle.scp.css",
+      "PackagePath": "staticwebassets/AdminCosmetic.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/css/feather.css",
+      "PackagePath": "staticwebassets/css/feather.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/css/jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets/css/jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/images/avatar-2.jpg",
+      "PackagePath": "staticwebassets/images/avatar-2.jpg"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/images/avatar-3.jpg",
+      "PackagePath": "staticwebassets/images/avatar-3.jpg"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/images/avatar-4.jpg",
+      "PackagePath": "staticwebassets/images/avatar-4.jpg"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/images/favicon.ico",
+      "PackagePath": "staticwebassets/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/Chart.js",
+      "PackagePath": "staticwebassets/js/Chart.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/SmoothScroll.js",
+      "PackagePath": "staticwebassets/js/SmoothScroll.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/amcharts.js",
+      "PackagePath": "staticwebassets/js/amcharts.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/custom-dashboard.js",
+      "PackagePath": "staticwebassets/js/custom-dashboard.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/email-decode.min.js",
+      "PackagePath": "staticwebassets/js/email-decode.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/js/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets/js/jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/jquery.slimscroll.js",
+      "PackagePath": "staticwebassets/js/jquery.slimscroll.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/light.js",
+      "PackagePath": "staticwebassets/js/light.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/modernizr.js",
+      "PackagePath": "staticwebassets/js/modernizr.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/pcoded.min.js",
+      "PackagePath": "staticwebassets/js/pcoded.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/popper.min.js",
+      "PackagePath": "staticwebassets/js/popper.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/script.min.js",
+      "PackagePath": "staticwebassets/js/script.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/serial.js",
+      "PackagePath": "staticwebassets/js/serial.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/js/vartical-layout.min.js",
+      "PackagePath": "staticwebassets/js/vartical-layout.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/.DS_Store"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/maianhtran/Documents/Project/Cosmetic_Shop_Project/admin/admin/AdminCosmetic/AdminCosmetic/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.AdminCosmetic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.AdminCosmetic.props",
+      "PackagePath": "build\\AdminCosmetic.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AdminCosmetic.props",
+      "PackagePath": "buildMultiTargeting\\AdminCosmetic.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AdminCosmetic.props",
+      "PackagePath": "buildTransitive\\AdminCosmetic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
