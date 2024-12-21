@@ -376,7 +376,11 @@
                                             <!-- Zero config.table start -->
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p><a asp-action="Create">Create New</a> </p>
+                                                    <p>
+                                                        <button class="btn btn-success" onclick="location.href='@Url.Action("Create", "Categories")'">
+                                                            Create New
+                                                        </button>
+                                                    </p>
                                                 </div>
                                                 <div class="card-block">
                                                     <div class="dt-responsive table-responsive">

@@ -50,13 +50,11 @@ namespace Shop.Controllers
         }
 
         // POST: Categories/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken] 
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,InStock,Status")] Category category)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,CategoryName,Description,Price,InStock,Status")] Category category)
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 _context.Add(category);
                 await _context.SaveChangesAsync();
