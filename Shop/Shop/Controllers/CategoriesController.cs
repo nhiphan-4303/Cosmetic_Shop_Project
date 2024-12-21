@@ -131,7 +131,7 @@ namespace Shop.Controllers
                 return NotFound();
             }
 
-            return View(category);
+            return PartialView(category);
         }
 
         // POST: Categories/Delete/5
@@ -143,15 +143,14 @@ namespace Shop.Controllers
             if (category != null)
             {
                 _context.Category.Remove(category);
+                await _context.SaveChangesAsync();
             }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return Json(new { success = true, message = "Category deleted successfully" });
         }
-
         private bool CategoryExists(int id)
         {
             return _context.Category.Any(e => e.Id == id);
         }
+
     }
 }

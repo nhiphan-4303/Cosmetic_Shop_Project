@@ -16,21 +16,23 @@
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
     <!-- feather Awesome -->
     <link rel="stylesheet" type="text/css"
-          href="css/feather.css">
+          href="~/css/feather.css">
     <!-- href="https://colorlib.com//polygon/adminty/files/icon/feather/css/feather.css"> -->
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    @* <link rel="stylesheet" type="text/css" href="css/style.css"> *@
+    <link rel="stylesheet" type="text/css" href="~/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
     <meta name="robots" content="index, nofollow">
 
     @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
     @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
     @* <link rel="stylesheet" href="~/Shop.styles.css" asp-append-version="true" /> *@
+</head>
 
-    <body>
+ <body>
         <div id="pcoded" class="pcoded">
             @RenderBody()
         </div>
@@ -77,9 +79,8 @@
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
         @await RenderSectionAsync("Scripts", required: false)
-    </body>
+ </body>
 
-</head>
 </html>
 
 

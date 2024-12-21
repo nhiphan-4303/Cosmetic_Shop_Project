@@ -58,7 +58,7 @@
                     <i class="feather icon-menu"></i>
                 </a>
                 <a href="https://colorlib.com//polygon/adminty/default/index.html">
-                    <img class="img-fluid" src="images/logo.png" alt="Theme-Logo" />
+                    <img class="img-fluid" src="~/images/logo.png" alt="Theme-Logo" />
                 </a>
                 <a class="mobile-options">
                     <i class="feather icon-more-horizontal"></i>
@@ -415,9 +415,13 @@
                                                                             @Html.DisplayFor(modelItem => item.Status)
                                                                         </td>
                                                                         <td>
-                                                                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                                                                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                                                                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                                                            <button class="btn btn-warning" onclick="location.href='@Url.Action("Edit", "Categories", new { id = item.Id })'">
+                                                                                Edit
+                                                                            </button>  
+                                                                            <button class="btn btn-danger"
+                                                                                    onclick="openDeleteModal('@Url.Action("Delete", "Categories", new { id = item.Id })')">
+                                                                                Delete
+                                                                            </button>
                                                                         </td>
                                                                     </tr>
                                                                 }
@@ -433,6 +437,21 @@
                                                                 </tr>
                                                             </tfoot>
                                                         </table>
+
+                                                        <!-- Modal Popup -->
+                                                        <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                                            <div class="modal-dialog" role="document">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                            <span aria-hidden="true">&times;</span>
+                                                                        </button>
+                                                                    </div>
+                                                                    <div class="modal-body" id="deleteModalBody">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -450,3 +469,43 @@
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    function openDeleteModal(url) {
+        $.get(url, function (data) {
+            $('#deleteModalBody').html(data);
+            $('#deleteModal').modal('show');
+        });
+    }
+
+    function closeModal() {
+        $('#deleteModal').modal('hide');
+    }
+
+       $(document).on('submit', 'form', function (e) {
+        e.preventDefault();
+
+        const form = $(this);
+        $.ajax({
+            url: form.attr('action'), 
+            method: form.attr('method'), 
+            data: form.serialize(), 
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message); 
+                    $('#deleteModal').modal('hide'); 
+                    location.reload(); 
+                } else {
+                    alert('Error: ' + response.message);
+                }
+            },
+            error: function () {
+                alert('An error occurred while processing the request.');
+            }
+        });
+    });
+</script>
+
+

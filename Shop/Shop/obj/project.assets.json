@@ -7673,23 +7673,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MAI ANH\\.nuget\\packages\\": {},
+    "C:\\Users\\hanie\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAI ANH\\OneDrive\\Tài liệu\\Cosmetic_Shop_Project\\Shop\\Shop\\Shop.csproj",
+      "projectUniqueName": "C:\\Users\\hanie\\OneDrive\\Desktop\\Ky-thuat-phan-mem\\Project_A\\Shop\\Shop\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "C:\\Users\\MAI ANH\\OneDrive\\Tài liệu\\Cosmetic_Shop_Project\\Shop\\Shop\\Shop.csproj",
-      "packagesPath": "C:\\Users\\MAI ANH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAI ANH\\OneDrive\\Tài liệu\\Cosmetic_Shop_Project\\Shop\\Shop\\obj\\",
+      "projectPath": "C:\\Users\\hanie\\OneDrive\\Desktop\\Ky-thuat-phan-mem\\Project_A\\Shop\\Shop\\Shop.csproj",
+      "packagesPath": "C:\\Users\\hanie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hanie\\OneDrive\\Desktop\\Ky-thuat-phan-mem\\Project_A\\Shop\\Shop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MAI ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7698,6 +7698,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
