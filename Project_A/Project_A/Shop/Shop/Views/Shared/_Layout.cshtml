@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["title"] - Admin</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="#">
+    <meta name="keywords"
+          content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+    <!-- Favicon icon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+    <!-- feather Awesome -->
+    <link rel="stylesheet" type="text/css"
+          href="~/css/feather.css">
+    <!-- href="https://colorlib.com//polygon/adminty/files/icon/feather/css/feather.css"> -->
+    <!-- Style.css -->
+    @* <link rel="stylesheet" type="text/css" href="css/style.css"> *@
+    <link rel="stylesheet" type="text/css" href="~/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <meta name="robots" content="index, nofollow">
+
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    @* <link rel="stylesheet" href="~/Shop.styles.css" asp-append-version="true" /> *@
+</head>
+
+ <body>
+        <div id="pcoded" class="pcoded">
+            @RenderBody()
+        </div>
+
+
+        <!-- Required Jquery -->
+        <script data-cfasync="false" src="js/email-decode.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- jquery slimscroll js -->
+        <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
+        <!-- modernizr js -->
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <!-- Chart js -->
+        <script type="text/javascript" src="js/Chart.js"></script>
+        <!-- amchart js -->
+        <script src="js/amcharts.js"></script>
+        <script src="js/serial.js"></script>
+        <script src="js/light.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="s/SmoothScroll.js"></script>
+        <script src="js/pcoded.min.js"></script>
+        <!-- custom js -->
+        <script src="js/vartical-layout.min.js"></script>
+        <script type="text/javascript" src="js/custom-dashboard.js"></script>
+        <script type="text/javascript" src="js/script.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+                        gtag('config', 'UA-23581568-13');</script>
+        <script defer
+                src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+                integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+                data-cf-beacon='{"rayId":"8cd1b30f2dc94c6b","version":"2024.8.0","serverTiming":{"name":{"cfExtPri":true,"cfL4":true}},"token":"cd0b4b3a733644fc843ef0b185f98241","b":1}'
+                crossorigin="anonymous"></script>
+
+        @* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+ </body>
+
+</html>
+
+
+@* <!DOCTYPE html> *@ 
+@*  <html lang="en"> *@ 
+@* <head> *@ 
+@*      <meta charset="utf-8" /> *@ 
+@*     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> *@ 
+@*     <title>@ViewData["Title"] - Shop</title> *@ 
+@*      <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@ 
+@*      <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@ 
+@*      <link rel="stylesheet" href="~/Shop.styles.css" asp-append-version="true" /> *@ 
+@*  </head> *@ 
+@* <body> *@ 
+@*      <header> *@ 
+@*          <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"> *@ 
+@*              <div class="container-fluid"> *@ 
+@*                  <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Shop</a> *@ 
+@*                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" *@ 
+@*                         aria-expanded="false" aria-label="Toggle navigation">  *@
+@*                         <span class="navbar-toggler-icon"></span> *@ 
+@*                  </button> *@ 
+@*                  <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between"> *@
+@*                      <ul class="navbar-nav flex-grow-1"> *@ 
+@*                          <li class="nav-item"> *@ 
+@*                              <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a> *@ 
+@*                         </li> *@ 
+@*                          <li class="nav-item"> *@ 
+@*                              <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+@*                          </li> *@ 
+@*                      </ul> *@ 
+@*                  </div> *@ 
+@*             </div> *@ 
+@*        </nav> *@ 
+@*      </header>  *@
+@*      <div class="container">  *@
+@*          <main role="main" class="pb-3">  *@
+@*              @RenderBody()  *@
+@*          </main>  *@
+@*      </div>  *@
+
+@*      <footer class="border-top footer text-muted">  *@
+@*          <div class="container">  *@
+@*              &copy; 2024 - Shop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>  *@
+@*          </div>  *@
+@*      </footer>  *@
+@*      <script src="~/lib/jquery/dist/jquery.min.js"></script>  *@
+@*      <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  *@
+@*     <script src="~/js/site.js" asp-append-version="true"></script>  *@
+@*      @await RenderSectionAsync("Scripts", required: false)  *@
+@*  </body>  *@
+@*  </html>  *@
