@@ -109,7 +109,8 @@ namespace Shop.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Categories");
             }
             return View(category);
         }
