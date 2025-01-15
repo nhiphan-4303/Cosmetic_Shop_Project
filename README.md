@@ -2,18 +2,6 @@
 
 ### A full-stack e-commerce platform for cosmetics, designed with HTML, CSS, JavaScript, and powered by ASP.NET.
 
-
-## 📋 Table of Contents
-- [📖 About the Project](#about-the-project)
-- [✨ Features](#features)
-- [🛠️ Technologies Used](#technologies-used)
-- [⚙️ Installation](#installation)
-- [🚀 Usage](#usage)
-- [📂 Database Structure](#database-structure)
-- [🤝 Contributors](#contributors)
-- [🔮 Future Enhancements](#future-enhancements)
-
-
 ## 📖 About the Project
 
 **ANNA Cosmetic** is a dynamic e-commerce website that redefines the online beauty shopping experience. It offers a seamless, user-friendly interface for customers while equipping administrators with powerful tools for backend management. Built as part of an academic project, this platform serves as the foundation for a fully interactive and scalable system.
