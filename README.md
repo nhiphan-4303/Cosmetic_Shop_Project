@@ -1,4 +1,4 @@
-# 🌟 ANNA Cosmetic E-commerce Website 🌟
+# 🪞 ANNA Cosmetic E-commerce Website 🧴
 ![MIT](https://img.shields.io/badge/License-MIT-green) ![HTML](https://img.shields.io/badge/Frontend-HTML-orange) ![CSS](https://img.shields.io/badge/CSS-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![ASP.NET](https://img.shields.io/badge/Backend-ASP.NET-purple) ![MySQL](https://img.shields.io/badge/Database-MySQL-lightblue)
 
 
