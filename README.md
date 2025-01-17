@@ -92,7 +92,7 @@ For detailed database schema, refer to `shop.sql`.
 
 ## 🤝 Contributors
 
-- **👩‍💻 Phan Ngọc Hạnh Nhi** ([@nhiphan-4303](https://github.com/nhiphan-4303))  
+- **👩‍💻 Phan Ngọc Hạnh Nhi** ([@nhiph4303](https://github.com/nhiph4303))  
 - **👩‍💻 Trần Mai Anh** ([@Tran-Mai-Anh](https://github.com/Tran-Mai-Anh))  
 
 🧑‍🏫 **Supervisor**: Mr. Ung Văn Giàu
