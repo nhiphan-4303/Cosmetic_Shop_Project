@@ -8,5 +8,20 @@ namespace Shop.Controllers
         {
             return View();
         }
+
+        public IActionResult Category()
+        {
+            return View();
+        }
+
+        public IActionResult ShoppingCart()
+        {
+            return View();
+        }
+
+        public IActionResult ProductDetail()
+        {
+            return View();
+        }
     }
 }
