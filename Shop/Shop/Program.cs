@@ -35,6 +35,23 @@ app.MapControllerRoute(
     defaults: new { controller = "ClientHome" }
 );
 
+app.MapControllerRoute(
+    name: "clienthome",
+    pattern: "ClientHome/{action=Category}/{id?}",
+    defaults: new { controller = "ClientHome" }
+);
+
+app.MapControllerRoute(
+    name: "clienthome",
+    pattern: "ClientHome/{action=ShoppingCart}/{id?}",
+    defaults: new { controller = "ClientHome" }
+);
+
+app.MapControllerRoute(
+    name: "clienthome",
+    pattern: "ClientHome/{action=ProductDetail}/{id?}",
+    defaults: new { controller = "ClientHome" }
+);
 
 app.MapControllerRoute(
     name: "default",

@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@ViewData["title"]Home Page - Anna Beauty</title>
+    <title>@ViewData["Title"]</title>
     <link rel="icon" href="~/assets/images/icon.png">
     <link rel="stylesheet" href="~/assets/css/lightgallery-bundle.min.css">
     <link rel="stylesheet" href="~/assets/css/all.min.css">
@@ -39,8 +39,8 @@
                     </div>
 
                     <div class="w-xl-50 mx-auto">
-                        <a href="index.html" class="navbar-brand px-0 py-4 mx-auto">
-                            <img class="light-mode-img" src="./assets/images/logo.png" width="250" height="70"
+                        <a href="https://localhost:7148/ClientHome" class="navbar-brand px-0 py-4 mx-auto">
+                            <img class="light-mode-img" src="~/assets/images/logo.png" width="250" height="70"
                                 alt="Anna Cosmetic">
                         </a>
                     </div>
@@ -199,7 +199,7 @@
 
                                         <div class="col d-xxl-block d-none megamenu-shop-banner" data-bs-theme="light">
                                             <div class="card border-0 mt-4">
-                                                <img src="./assets/images/product-11.webp" alt="bg mega menu"
+                                                <img src="~/assets/images/product-11.webp" alt="bg mega menu"
                                                     class="card-img">
                                                 <div class="card-img-overlay d-flex flex-column mx-2 px-9 py-6">
                                                     <p
@@ -699,13 +699,12 @@
 
                 <div class="col-sm-12 col-lg-4 text-md-center order-1 order-lg-2 ">
                     <a class="d-inline-block" href="index.html">
-                        <img class="lazy-image img-fluid light-mode-img" src="#"
-                             data-src="./assets/images/footer-logo.png" width="300" height="100" alt="Anna Cosmetic">
+                        <img class="lazy-image img-fluid light-mode-img" src="~/assets/images/footer-logo.png" width="300" height="100" alt="Anna Cosmetic">
                     </a>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4 order-3 text-sm-start text-lg-end mt-7 mt-md-11 mt-lg-0">
-                    <img src="#" data-src="./assets/images/img_1.png" width="313" height="28" alt="Paypal"
+                    <img src="#" data-src="@Url.Content("~/assets/images/img_1.png")" width="313" height="28" alt="Paypal"
                         class="img-fluid lazy-image">
                 </div>
             </div>
@@ -814,7 +813,7 @@
                             <td class="shop-product">
                                 <div class="d-flex align-items-center">
                                     <div class="me-6">
-                                        <img src="~/assets/images/product-13.webp" width="60" height="80"
+                                        <img src="@Url.Content("~/assets/images/product-13.webp")" width="60" height="80"
                                             alt="Violet Strawberry Rococo Embossed Blush">
                                     </div>
                                     <div>
@@ -1113,7 +1112,7 @@
                                                                                             </a>
                                     <a href="~/assets/images/gallery-product-01-4.webp"
                                                                                                 data-gallery="gallery1"
-                                                                                                data-thumb-src="assets/images/gallery-product-01-4.webp">
+                                                                                                data-thumb-src="~assets/images/gallery-product-01-4.webp">
                                                                                                 <img src="#"
                                              data-src="~/assets/images/gallery-product-01-4.webp"
                                                                                                     class="h-auto lazy-image"
