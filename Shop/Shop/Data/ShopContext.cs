@@ -13,6 +13,12 @@ namespace Shop.Data
             : base(options)
         {
         }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Shop.Models.Category> Category { get; set; } = default!;
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Admin> Admins { get; set; }
 
         public DbSet<Shop.Models.Category> Category { get; set; } = default!;
     }
